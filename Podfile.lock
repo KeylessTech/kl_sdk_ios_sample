@@ -1,0 +1,16 @@
+PODS:
+  - KeylessSDK (4.7.4)
+
+DEPENDENCIES:
+  - KeylessSDK (= 4.7.4)
+
+SPEC REPOS:
+  https://dl.cloudsmith.io/iDuTV6v7r8q5wfaI/keyless/partners/cocoapods/index.git:
+    - KeylessSDK
+
+SPEC CHECKSUMS:
+  KeylessSDK: d3f218b2df329cefd240907a9e8ecfba0e29d184
+
+PODFILE CHECKSUM: aae2847ef9460fd3e4496474df704b1280cdf13e
+
+COCOAPODS: 1.16.2

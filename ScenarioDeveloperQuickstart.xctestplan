@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "22F49D3E-E8CE-49E7-B4FF-AB66463026A5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ScenarioDeveloperQuickstart.xcodeproj",
+      "identifier" : "53F5ACCF2D11C477002FAB08",
+      "name" : "ScenarioDeveloperQuickstart"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:ScenarioDeveloperQuickstart.xcodeproj",
+        "identifier" : "53F5ACDF2D11C47C002FAB08",
+        "name" : "ScenarioDeveloperQuickstartTests"
+      }
+    }
+  ],
+  "version" : 1
+}

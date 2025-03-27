@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A38DA2A2D494C9B0039AF0B /* keys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8A38DA242D494C9B0039AF0B /* keys.xcconfig */; };
+		DABF991AC202D995C3C87C72 /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61480C4262555AB7AF649A82 /* Pods_ScenarioDeveloperQuickstart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F5ACE12D11C47C002FAB08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F5ACC82D11C477002FAB08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F5ACCF2D11C477002FAB08;
+			remoteInfo = ScenarioDeveloperQuickstart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D39876285D00131092D5CEF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.release.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.release.xcconfig"; sourceTree = "<group>"; };
+		53F5ACD02D11C477002FAB08 /* ScenarioDeveloperQuickstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScenarioDeveloperQuickstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F5ACE02D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScenarioDeveloperQuickstartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61480C4262555AB7AF649A82 /* Pods_ScenarioDeveloperQuickstart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScenarioDeveloperQuickstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CFC92B6773F32F573BD930 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
+		8A38DA242D494C9B0039AF0B /* keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = keys.xcconfig; sourceTree = "<group>"; };
+		8A38DA252D494C9B0039AF0B /* keys.template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = keys.template.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8A266BA82D4849E400C39BE6 /* Exceptions for "ScenarioDeveloperQuickstart" folder in "ScenarioDeveloperQuickstart" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 53F5ACCF2D11C477002FAB08 /* ScenarioDeveloperQuickstart */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		53F5ACD22D11C477002FAB08 /* ScenarioDeveloperQuickstart */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8A266BA82D4849E400C39BE6 /* Exceptions for "ScenarioDeveloperQuickstart" folder in "ScenarioDeveloperQuickstart" target */,
+			);
+			path = ScenarioDeveloperQuickstart;
+			sourceTree = "<group>";
+		};
+		53F5ACE32D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = ScenarioDeveloperQuickstartTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F5ACCD2D11C477002FAB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF991AC202D995C3C87C72 /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5ACDD2D11C47C002FAB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F5ACC72D11C477002FAB08 = {
+			isa = PBXGroup;
+			children = (
+				53F5ACD22D11C477002FAB08 /* ScenarioDeveloperQuickstart */,
+				53F5ACE32D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */,
+				53F5ACD12D11C477002FAB08 /* Products */,
+				6C4D6BF6B14CDD6F6399F6AE /* Pods */,
+				8A38DA242D494C9B0039AF0B /* keys.xcconfig */,
+				8A38DA252D494C9B0039AF0B /* keys.template.xcconfig */,
+				FCB6A8459819B9F5A6C91A70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53F5ACD12D11C477002FAB08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F5ACD02D11C477002FAB08 /* ScenarioDeveloperQuickstart.app */,
+				53F5ACE02D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4D6BF6B14CDD6F6399F6AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86CFC92B6773F32F573BD930 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */,
+				0D39876285D00131092D5CEF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCB6A8459819B9F5A6C91A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61480C4262555AB7AF649A82 /* Pods_ScenarioDeveloperQuickstart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F5ACCF2D11C477002FAB08 /* ScenarioDeveloperQuickstart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F5ACF42D11C47C002FAB08 /* Build configuration list for PBXNativeTarget "ScenarioDeveloperQuickstart" */;
+			buildPhases = (
+				AA8C42705BD5C981E427E153 /* [CP] Check Pods Manifest.lock */,
+				53F5ACCC2D11C477002FAB08 /* Sources */,
+				53F5ACCD2D11C477002FAB08 /* Frameworks */,
+				53F5ACCE2D11C477002FAB08 /* Resources */,
+				6EE98E950C498A90C9401E4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				53F5ACD22D11C477002FAB08 /* ScenarioDeveloperQuickstart */,
+			);
+			name = ScenarioDeveloperQuickstart;
+			productName = ScenarioDeveloperQuickstart;
+			productReference = 53F5ACD02D11C477002FAB08 /* ScenarioDeveloperQuickstart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53F5ACDF2D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F5ACF72D11C47C002FAB08 /* Build configuration list for PBXNativeTarget "ScenarioDeveloperQuickstartTests" */;
+			buildPhases = (
+				53F5ACDC2D11C47C002FAB08 /* Sources */,
+				53F5ACDD2D11C47C002FAB08 /* Frameworks */,
+				53F5ACDE2D11C47C002FAB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F5ACE22D11C47C002FAB08 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				53F5ACE32D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */,
+			);
+			name = ScenarioDeveloperQuickstartTests;
+			productName = ScenarioDeveloperQuickstartTests;
+			productReference = 53F5ACE02D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F5ACC82D11C477002FAB08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					53F5ACCF2D11C477002FAB08 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					53F5ACDF2D11C47C002FAB08 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 53F5ACCF2D11C477002FAB08;
+					};
+				};
+			};
+			buildConfigurationList = 53F5ACCB2D11C477002FAB08 /* Build configuration list for PBXProject "ScenarioDeveloperQuickstart" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F5ACC72D11C477002FAB08;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 53F5ACD12D11C477002FAB08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F5ACCF2D11C477002FAB08 /* ScenarioDeveloperQuickstart */,
+				53F5ACDF2D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F5ACCE2D11C477002FAB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A38DA2A2D494C9B0039AF0B /* keys.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5ACDE2D11C47C002FAB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EE98E950C498A90C9401E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8C42705BD5C981E427E153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScenarioDeveloperQuickstart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F5ACCC2D11C477002FAB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5ACDC2D11C47C002FAB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F5ACE22D11C47C002FAB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F5ACCF2D11C477002FAB08 /* ScenarioDeveloperQuickstart */;
+			targetProxy = 53F5ACE12D11C47C002FAB08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53F5ACF22D11C47C002FAB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A38DA242D494C9B0039AF0B /* keys.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture your biometrics\n";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53F5ACF32D11C47C002FAB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A38DA242D494C9B0039AF0B /* keys.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F5ACF52D11C47C002FAB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CFC92B6773F32F573BD930 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScenarioDeveloperQuickstart/Preview Content\"";
+				DEVELOPMENT_TEAM = ZMPU859CCD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScenarioDeveloperQuickstart/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture your biometrics\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.7.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keyless.ScenarioDeveloperQuickstart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F5ACF62D11C47C002FAB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D39876285D00131092D5CEF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScenarioDeveloperQuickstart/Preview Content\"";
+				DEVELOPMENT_TEAM = ZMPU859CCD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScenarioDeveloperQuickstart/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to capture your biometrics\n";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.7.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keyless.ScenarioDeveloperQuickstart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53F5ACF82D11C47C002FAB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMPU859CCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keyless.ScenarioDeveloperQuickstartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScenarioDeveloperQuickstart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScenarioDeveloperQuickstart";
+			};
+			name = Debug;
+		};
+		53F5ACF92D11C47C002FAB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMPU859CCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keyless.ScenarioDeveloperQuickstartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScenarioDeveloperQuickstart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScenarioDeveloperQuickstart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F5ACCB2D11C477002FAB08 /* Build configuration list for PBXProject "ScenarioDeveloperQuickstart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5ACF22D11C47C002FAB08 /* Debug */,
+				53F5ACF32D11C47C002FAB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F5ACF42D11C47C002FAB08 /* Build configuration list for PBXNativeTarget "ScenarioDeveloperQuickstart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5ACF52D11C47C002FAB08 /* Debug */,
+				53F5ACF62D11C47C002FAB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F5ACF72D11C47C002FAB08 /* Build configuration list for PBXNativeTarget "ScenarioDeveloperQuickstartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5ACF82D11C47C002FAB08 /* Debug */,
+				53F5ACF92D11C47C002FAB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F5ACC82D11C477002FAB08 /* Project object */;
+}
