@@ -1,6 +1,5 @@
 # Ignore file containing sensitive cloudsmith token
 cloudsmith.properties
-keys.xcconfig
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template

@@ -1,6 +1,12 @@
 // Since the xcconfig treats "//" as comment you need to replace the slashes in the keyless host with the
 // variable SLASH. For example: replace enter_your_host_here with
 // https:$(SLASH)$(SLASH)host.keyless.technology instead of https://host.keyless.technology
+
+// Make sure to remove any trialing slash from the Keyless host
+// OK     ->  https://host.keyless.technology
+// NOT OK ->  https://host.keyless.technology/
+
 SLASH=/
+
 API_KEY=enter_keyless_api_key_here
 HOST=enter_keyless_host_here
