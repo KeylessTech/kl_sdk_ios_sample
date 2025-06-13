@@ -47,15 +47,15 @@ Make sure to remove any trialing slash from the Keyless host
 - OK     ->  `https://host.keyless.technology`
 - NOT OK ->  `https://host.keyless.technology/`
 
-Now add the keys.xcconfig as configuration for debug and release under `Project -> ScenarioDeveloperQuickstart -> Info -> Configurations`. Then add the `API_KEY` and `HOST` to your `Info.plist`
+Now add the keys.xcconfig as configuration for debug and release under `Project -> ScenarioDeveloperQuickstart -> Info -> Configurations`. 
+
+We already prepared the code to retrieve the `API_KEY` and `HOST` from the `keys.xcconfig` you just created, double check that your `Info.plist` contains the following:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key></key>
-	<string></string>
 	<key>API_KEY</key>
 	<string>$(API_KEY)</string>
 	<key>HOST</key>
