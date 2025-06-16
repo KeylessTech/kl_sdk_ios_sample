@@ -39,7 +39,7 @@ class KeylessWrapper {
         try await withCheckedThrowingContinuation { (continuation: CheckedContinuation<Void, Error>) in
             DispatchQueue.main.async {
                 
-                Keyless.enroll(configuration: enrollConfig, onProgress: nil) { result in
+                Keyless.enroll(configuration: enrollConfig) { result in
                     switch result {
                     case .success(_):
                         continuation.resume(returning: ())

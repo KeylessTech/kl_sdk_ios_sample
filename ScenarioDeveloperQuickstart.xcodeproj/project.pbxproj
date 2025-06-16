@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DABF991AC202D995C3C87C72 /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61480C4262555AB7AF649A82 /* Pods_ScenarioDeveloperQuickstart.framework */; };
+		29024B55227171F1865BEE1F /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973FF4638A33B2B19DB41A30 /* Pods_ScenarioDeveloperQuickstart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,12 +21,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D39876285D00131092D5CEF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.release.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.release.xcconfig"; sourceTree = "<group>"; };
+		0E8F36D89C1EE7A0D611F9BF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.release.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.release.xcconfig"; sourceTree = "<group>"; };
 		53F5ACD02D11C477002FAB08 /* ScenarioDeveloperQuickstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScenarioDeveloperQuickstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F5ACE02D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScenarioDeveloperQuickstartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61480C4262555AB7AF649A82 /* Pods_ScenarioDeveloperQuickstart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScenarioDeveloperQuickstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86CFC92B6773F32F573BD930 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
-		8A38DA252D494C9B0039AF0B /* keys.template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = keys.template.xcconfig; sourceTree = "<group>"; };
+		973FF4638A33B2B19DB41A30 /* Pods_ScenarioDeveloperQuickstart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScenarioDeveloperQuickstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75B8D9F0E86CF7E3C5B56C3 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -60,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABF991AC202D995C3C87C72 /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */,
+				29024B55227171F1865BEE1F /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +80,7 @@
 				53F5ACE32D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */,
 				53F5ACD12D11C477002FAB08 /* Products */,
 				6C4D6BF6B14CDD6F6399F6AE /* Pods */,
-				8A38DA252D494C9B0039AF0B /* keys.template.xcconfig */,
-				FCB6A8459819B9F5A6C91A70 /* Frameworks */,
+				70C683E99E91904632CCFEF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,16 +96,16 @@
 		6C4D6BF6B14CDD6F6399F6AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86CFC92B6773F32F573BD930 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */,
-				0D39876285D00131092D5CEF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */,
+				D75B8D9F0E86CF7E3C5B56C3 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */,
+				0E8F36D89C1EE7A0D611F9BF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FCB6A8459819B9F5A6C91A70 /* Frameworks */ = {
+		70C683E99E91904632CCFEF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				61480C4262555AB7AF649A82 /* Pods_ScenarioDeveloperQuickstart.framework */,
+				973FF4638A33B2B19DB41A30 /* Pods_ScenarioDeveloperQuickstart.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,11 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53F5ACF42D11C47C002FAB08 /* Build configuration list for PBXNativeTarget "ScenarioDeveloperQuickstart" */;
 			buildPhases = (
-				AA8C42705BD5C981E427E153 /* [CP] Check Pods Manifest.lock */,
+				8793926E3AE78A689E9474C8 /* [CP] Check Pods Manifest.lock */,
 				53F5ACCC2D11C477002FAB08 /* Sources */,
 				53F5ACCD2D11C477002FAB08 /* Frameworks */,
 				53F5ACCE2D11C477002FAB08 /* Resources */,
-				6EE98E950C498A90C9401E4E /* [CP] Embed Pods Frameworks */,
+				F18B8214A28A77481CC36765 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,24 +213,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6EE98E950C498A90C9401E4E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA8C42705BD5C981E427E153 /* [CP] Check Pods Manifest.lock */ = {
+		8793926E3AE78A689E9474C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,6 +233,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18B8214A28A77481CC36765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -408,7 +406,7 @@
 		};
 		53F5ACF52D11C47C002FAB08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86CFC92B6773F32F573BD930 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */;
+			baseConfigurationReference = D75B8D9F0E86CF7E3C5B56C3 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,7 +439,7 @@
 		};
 		53F5ACF62D11C47C002FAB08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D39876285D00131092D5CEF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */;
+			baseConfigurationReference = 0E8F36D89C1EE7A0D611F9BF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

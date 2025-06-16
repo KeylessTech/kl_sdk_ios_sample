@@ -7,11 +7,15 @@ def load_env_file(filename)
       ENV[key] = value if key && value
     end
   else
-    puts "#{filename} file not found!"
+    puts "#{filename} file not found. Please create one based on cloudsmith.template.properties"
   end
 end
 
 load_env_file('cloudsmith.properties')
+
+unless ENV['cloudsmithTokenPartners']
+  raise "Missing required environment variable: cloudsmithTokenPartners. Are you sure you created a cloudsmith.properties file based on the cloudsmith.template.properties file?"
+end
 
 source 'https://cdn.cocoapods.org/'
 source 'https://dl.cloudsmith.io/' + ENV['cloudsmithTokenPartners'] +'/keyless/partners/cocoapods/index.git'
@@ -19,7 +23,7 @@ source 'https://dl.cloudsmith.io/' + ENV['cloudsmithTokenPartners'] +'/keyless/p
 
 target 'ScenarioDeveloperQuickstart' do
   use_frameworks!
-  pod 'KeylessSDK', '4.7.4'
+  pod 'KeylessSDK', '5.0.1'
 end
 
 
