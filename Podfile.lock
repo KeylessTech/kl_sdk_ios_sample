@@ -1,16 +1,16 @@
 PODS:
-  - keyless-mobile-sdk (5.4.0)
+  - keyless-mobile-sdk (5.5.0)
 
 DEPENDENCIES:
-  - keyless-mobile-sdk (= 5.4.0)
+  - keyless-mobile-sdk (= 5.5.0)
 
 SPEC REPOS:
   https://dl.cloudsmith.io/YOUR_CLOUDSMITH_TOKEN/keyless/partners/cocoapods/index.git:
     - keyless-mobile-sdk
 
 SPEC CHECKSUMS:
-  keyless-mobile-sdk: 4db19a3d595bb2bae5d35eb5de0537d13391e7d5
+  keyless-mobile-sdk: 0ff2df9676c8496f68d890843640578d6b17bc39
 
-PODFILE CHECKSUM: 6c4572b78695418123cbbf324182092ae9d6df7d
+PODFILE CHECKSUM: ee4eb5426bd0531b1418caa47214bddf41020799
 
 COCOAPODS: 1.16.2

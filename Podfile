@@ -23,7 +23,7 @@ source 'https://dl.cloudsmith.io/' + ENV['cloudsmithTokenPartners'] +'/keyless/p
 
 target 'ScenarioDeveloperQuickstart' do
   use_frameworks!
-  pod 'keyless-mobile-sdk', '5.4.0'
+  pod 'keyless-mobile-sdk', '5.5.0'
 end
 
 
