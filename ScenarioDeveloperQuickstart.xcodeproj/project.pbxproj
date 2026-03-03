@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29024B55227171F1865BEE1F /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973FF4638A33B2B19DB41A30 /* Pods_ScenarioDeveloperQuickstart.framework */; };
+		4C908EBEBAC9C45C3B3E28D6 /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B476F01E76CAEDA1EC85882 /* Pods_ScenarioDeveloperQuickstart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,11 +21,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E8F36D89C1EE7A0D611F9BF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.release.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.release.xcconfig"; sourceTree = "<group>"; };
+		2B476F01E76CAEDA1EC85882 /* Pods_ScenarioDeveloperQuickstart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScenarioDeveloperQuickstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFB5969DEC5FF4DF147A55F /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
 		53F5ACD02D11C477002FAB08 /* ScenarioDeveloperQuickstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScenarioDeveloperQuickstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F5ACE02D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScenarioDeveloperQuickstartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		973FF4638A33B2B19DB41A30 /* Pods_ScenarioDeveloperQuickstart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScenarioDeveloperQuickstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D75B8D9F0E86CF7E3C5B56C3 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
+		E0AEB92D6518D051DE2DF6C9 /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScenarioDeveloperQuickstart.release.xcconfig"; path = "Target Support Files/Pods-ScenarioDeveloperQuickstart/Pods-ScenarioDeveloperQuickstart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -49,6 +49,8 @@
 		};
 		53F5ACE32D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = ScenarioDeveloperQuickstartTests;
 			sourceTree = "<group>";
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29024B55227171F1865BEE1F /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */,
+				4C908EBEBAC9C45C3B3E28D6 /* Pods_ScenarioDeveloperQuickstart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24E0628C645DD5ED02F7A052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B476F01E76CAEDA1EC85882 /* Pods_ScenarioDeveloperQuickstart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53F5ACC72D11C477002FAB08 = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +90,7 @@
 				53F5ACE32D11C47C002FAB08 /* ScenarioDeveloperQuickstartTests */,
 				53F5ACD12D11C477002FAB08 /* Products */,
 				6C4D6BF6B14CDD6F6399F6AE /* Pods */,
-				70C683E99E91904632CCFEF5 /* Frameworks */,
+				24E0628C645DD5ED02F7A052 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,18 +106,10 @@
 		6C4D6BF6B14CDD6F6399F6AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D75B8D9F0E86CF7E3C5B56C3 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */,
-				0E8F36D89C1EE7A0D611F9BF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */,
+				2EFB5969DEC5FF4DF147A55F /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */,
+				E0AEB92D6518D051DE2DF6C9 /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		70C683E99E91904632CCFEF5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				973FF4638A33B2B19DB41A30 /* Pods_ScenarioDeveloperQuickstart.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,11 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53F5ACF42D11C47C002FAB08 /* Build configuration list for PBXNativeTarget "ScenarioDeveloperQuickstart" */;
 			buildPhases = (
-				8793926E3AE78A689E9474C8 /* [CP] Check Pods Manifest.lock */,
+				9D7D914831C8088DC5715775 /* [CP] Check Pods Manifest.lock */,
 				53F5ACCC2D11C477002FAB08 /* Sources */,
 				53F5ACCD2D11C477002FAB08 /* Frameworks */,
 				53F5ACCE2D11C477002FAB08 /* Resources */,
-				F18B8214A28A77481CC36765 /* [CP] Embed Pods Frameworks */,
+				E0536D43AB82724C58B170D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +215,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8793926E3AE78A689E9474C8 /* [CP] Check Pods Manifest.lock */ = {
+		9D7D914831C8088DC5715775 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,7 +237,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F18B8214A28A77481CC36765 /* [CP] Embed Pods Frameworks */ = {
+		E0536D43AB82724C58B170D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +408,7 @@
 		};
 		53F5ACF52D11C47C002FAB08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D75B8D9F0E86CF7E3C5B56C3 /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */;
+			baseConfigurationReference = 2EFB5969DEC5FF4DF147A55F /* Pods-ScenarioDeveloperQuickstart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +441,7 @@
 		};
 		53F5ACF62D11C47C002FAB08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8F36D89C1EE7A0D611F9BF /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */;
+			baseConfigurationReference = E0AEB92D6518D051DE2DF6C9 /* Pods-ScenarioDeveloperQuickstart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
